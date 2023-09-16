@@ -1,3 +1,6 @@
+@import url(/styles/components/head.css);
+@import url(/styles/components/main.css);
+@import url(/styles/components/foot.css);
 @import url("https://fonts.googleapis.com/css2? family= Poppins:wght@300;400;500 & display=swap");
 :root {
   --font-family: "Poppins", sans-serif;
@@ -5,6 +8,7 @@
   --font-size-12: 12px;
   --font-size-14: 14px;
   --font-size-16: 16px;
+  --font-size-18: 18px;
   --font-size-24: 24px;
   --font-size-26: 26px;
   --font-weight-300: 300;
@@ -19,4 +23,18 @@
   --cor-detalhes-medio: #bcbcbc;
   --cor-detalhes-claro: #f6f6f6;
   --cor-btn-hover: #FF9D9E;
+}
+
+.body__blue {
+  width: 100vw;
+  height: 100vh;
+  background: var(--cor-primaria) url(/img/mobile/Forma\ 1.png) no-repeat fixed;
+  font-family: var(--font-family);
+}
+
+.body__white {
+  width: 100vw;
+  height: 100vh;
+  background: var(--cor-detalhes-claro) url(/img/mobile/Forma\ 1.png) no-repeat fixed;
+  font-family: var(--font-family);
 }
