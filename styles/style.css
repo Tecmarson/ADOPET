@@ -1,6 +1,6 @@
-@import url(/styles/components/head.css);
-@import url(/styles/components/main.css);
-@import url(/styles/components/foot.css);
+@import url(/styles/components/Header/header-index.css);
+@import url(/styles/components/Main/main-index.css);
+@import url(/styles/components/Footer/footer-index.css);
 @import url("https://fonts.googleapis.com/css2? family= Poppins:wght@300;400;500 & display=swap");
 :root {
   --font-family: "Poppins", sans-serif;
@@ -25,14 +25,14 @@
   --cor-btn-hover: #FF9D9E;
 }
 
-.body__blue {
+#body__blue {
   width: 100vw;
   height: 100vh;
   background: var(--cor-primaria) url(/img/mobile/Forma\ 1.png) no-repeat fixed;
   font-family: var(--font-family);
 }
 
-.body__white {
+#body__white {
   width: 100vw;
   height: 100vh;
   background: var(--cor-detalhes-claro) url(/img/mobile/Forma\ 1.png) no-repeat fixed;

@@ -32,6 +32,14 @@
     text-align: center;
 }
 
+.main__paragraphBlue {
+    width: 70%;
+    font-size: var(--font-size-18);
+    line-height: 24px;
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
 .buttons {
     display: flex;
     flex-direction: column;
@@ -50,6 +58,7 @@
 }
 
 .main__image {
-    width: 70%;
-    margin-top: 1rem;
+    background: url(/img/mobile/Ilustração\ 1.png) no-repeat;
+    width: 90%;
+    height: 100%;
 }
