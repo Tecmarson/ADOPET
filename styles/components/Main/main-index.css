@@ -2,7 +2,7 @@
     color: var(--cor-detalhes-claro);
     background: url(/img/mobile/Forma\ 2.png) no-repeat right;
 
-    height: 70%;
+    height: 73%;
     padding: 0.5rem;
     width: 88,99%;
 
@@ -61,6 +61,8 @@
     background: url(/img/mobile/Ilustração\ 1.png) no-repeat;
     background-size: contain;
     background-position: bottom;
-    width: 70%;
-    height: 45%;
+    width: 66%;
+    height: 42%;
+    margin-right: 3rem;
+    margin-top: 3rem;
   }
