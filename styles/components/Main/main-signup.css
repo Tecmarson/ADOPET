@@ -1,6 +1,6 @@
 .mainSignUp {
     color: var(--cor-detalhes-claro);
-    background: url(/img/mobile/Forma\ 2.png) no-repeat right;
+    background: url(/img/mobile/Forma\ 2l.png) no-repeat left bottom 2.5rem;
 
     height: 70%;
     padding: 0.5rem;
@@ -17,19 +17,61 @@
 }
 
 .mainSignUp__logo {
-    width: 70%;
+    width: 50%;
+    margin-bottom: 1rem;
 }
 
 .mainSignUp__paragraph {
-    width: 70%;
+    width: 90%;
     font-size: var(--font-size-18);
+    font-weight: 400;
     line-height: 24px;
     text-align: center;
     color: var(--cor-primaria);
 }
 
-.mainSignUp__image {
-    background: url(/img/mobile/Ilustração\ 1.png) no-repeat;
+.paragraph {
+    margin-bottom: .5rem;
+}
+
+.mainSignUp__form {
+    color: var(--cor-detalhes-escuro);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem;
+    width: 100%;
+    height: 60%;
+}
+
+.mainSignUp__label {
+    font-size: var(--font-size-16);
+    font-weight: 400;
+    margin-bottom: .25rem;
+    margin-top: 1rem;
+}
+
+.mainSignUp__input {
+    text-align: center;
     width: 90%;
-    height: 100%;
+    height: 11%;
+    border: none;
+    border-radius: 6px;
+    background-color: var(--cor-detalhes-claro);
+    color: var(--cor-detalhes-escuro);
+    box-shadow: 0 3px 3px #e4e4e4;
+    font-family: var(--font-family);
+    font-size: var(--font-size-12);
+    font-weight: 400;
+}
+
+.mainSignUp__button {
+    background-color: var(--cor-terciaria);
+    color: var(--fundo-branco);
+    border: none;
+    border-radius: 5px;
+    width: 50%;
+    height: 8%;
+    font-family: var(--font-family);
+    font-weight: 600;
 }

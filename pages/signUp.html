@@ -20,27 +20,42 @@
 
 <body id="body__white">
 
+    <img src="/img/mobile/Patas.png" alt="" class="SignUp__bgImage">
+
     <header class="headerSignUp">
-        <img src="/img/mobile/Patas.png" alt="" class="headerSignUp__bgImage">
         <nav class="headerSignUp__navigation">
             <ul class="headerSignUp__list">
-                <li><a href="" class="headerSignUp__link"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a></li>
-                <li><a href="" class="headerSignUp__link"><i class="fa-solid fa-envelope" style="color: #ffffff;"></i></a></li>
+                <li><a href="/index.html" class="headerSignUp__link"><i class="fa-solid fa-house" style="color: #ffffff;"></i></a>
+                </li>
+                <li><a href="" class="headerSignUp__link"><i class="fa-solid fa-envelope"
+                            style="color: #ffffff;"></i></a></li>
             </ul>
         </nav>
     </header>
 
     <main class="mainSignUp">
         <h2 class="mainSignUp__title"><img src="/img/logos/Logoblue.png" alt="" class="mainSignUp__logo"></h2>
-
-        <p class="mainSignUp__paragraph">
+        <p class="mainSignUp__paragraph paragraph">
             Ainda não tem cadastro?
+        </p>
+        <p class="mainSignUp__paragraph">
             Então, antes de buscar seu melhor amigo, precisamos de alguns dados:
         </p>
 
         <form action="" class="mainSignUp__form">
-             
+            <label class="mainSignUp__label" for="email">Email</label>
+            <input class="mainSignUp__input" type="email" name="email" id="email" placeholder="Digite seu email">
+
+            <label class="mainSignUp__label" for="name">Nome</label>
+            <input class="mainSignUp__input" type="text" name="name" id="name" placeholder="Digite seu nome">
+
+            <label class="mainSignUp__label" for="senha">Senha</label>
+            <input class="mainSignUp__input" type="password" name="senha" id="senha" placeholder="Crie sua senha">
+
+            <label class="mainSignUp__label" for="autenticacao">Confirme sua senha</label>
+            <input class="mainSignUp__input" type="password" name="autenticacao" id="autenticacao" placeholder="Repita sua senha digitada acima">
         </form>
+        <button class="mainSignUp__button">cadastrar</button>
 
     </main>
 

@@ -1,6 +1,9 @@
 @import url(/styles/components/Header/header-index.css);
 @import url(/styles/components/Main/main-index.css);
 @import url(/styles/components/Footer/footer-index.css);
+@import url(/styles/components/Header/header-signup.css);
+@import url(/styles/components/Main/main-signup.css);
+@import url(/styles/components/Footer/footer-signup.css);
 @import url("https://fonts.googleapis.com/css2? family= Poppins:wght@300;400;500 & display=swap");
 :root {
   --font-family: "Poppins", sans-serif;
@@ -18,6 +21,7 @@
   --cor-primaria: #3772ff;
   --cor-secundaria: #36d6ad;
   --cor-terciaria: #fc7071;
+  --cor-fundo-claro: #ffffff;
   --cor-terciaria-creme: #fcf0e3;
   --cor-detalhes-escuro: #737380;
   --cor-detalhes-medio: #bcbcbc;
@@ -28,13 +32,19 @@
 #body__blue {
   width: 100vw;
   height: 100vh;
-  background: var(--cor-primaria) url(/img/mobile/Forma\ 1.png) no-repeat fixed;
+  background: var(--cor-primaria) url(/img/mobile/Forma\ 1.png) no-repeat;
   font-family: var(--font-family);
 }
 
 #body__white {
   width: 100vw;
   height: 100vh;
-  background: var(--cor-detalhes-claro) url(/img/mobile/Forma\ 1.png) no-repeat fixed;
+  background: var(--cor-fundo-claro) url(/img/mobile/Forma\ 1.png) no-repeat;
   font-family: var(--font-family);
+}
+
+.SignUp__bgImage {
+  position: absolute;
+  right: 0;
+
 }
