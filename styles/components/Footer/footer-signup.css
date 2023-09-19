@@ -1,0 +1,11 @@
+.footerSignUp {
+  background: var(--cor-secundaria);
+  height: 7.98%;
+  color: var(--cor-detalhes-claro);
+  font-size: var(--font-size-18);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerSignUp__text {}

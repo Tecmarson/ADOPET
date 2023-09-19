@@ -1,0 +1,35 @@
+.mainSignUp {
+    color: var(--cor-detalhes-claro);
+    background: url(/img/mobile/Forma\ 2.png) no-repeat right;
+
+    height: 70%;
+    padding: 0.5rem;
+    width: 88,99%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mainSignUp__title {
+    text-align: center;
+    width: 100%;
+}
+
+.mainSignUp__logo {
+    width: 70%;
+}
+
+.mainSignUp__paragraph {
+    width: 70%;
+    font-size: var(--font-size-18);
+    line-height: 24px;
+    text-align: center;
+    color: var(--cor-primaria);
+}
+
+.mainSignUp__image {
+    background: url(/img/mobile/Ilustração\ 1.png) no-repeat;
+    width: 90%;
+    height: 100%;
+}
