@@ -1,6 +1,8 @@
 .footer {
+    position: absolute;
     background: var(--cor-secundaria);
-    height: 7.98%;
+    height: 11%;
+    width: 100%;
     color: var(--cor-detalhes-claro);
     font-size: var(--font-size-18);
     display: flex;
