@@ -58,11 +58,10 @@
 }
 
 .main__ilustracao {
-    background: url(/img/mobile/Ilustração\ 1.png) no-repeat;
-    background-size: contain;
+    background: url(/img/mobile/Ilustração\ 1@3x.png) no-repeat;
+    background-size: cover;
     background-position: bottom;
-    width: 66%;
-    height: 42%;
+    width: 72%;
+    height: 44%;
     margin-right: 3rem;
-    margin-top: 3rem;
   }
